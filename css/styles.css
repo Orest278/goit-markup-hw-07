@@ -320,34 +320,35 @@ button {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url(../images/hiro.img/dark-bghirot@1x.jpg);
         background-size: 768px;
-        max-width: 768px;
-        @media (min-device-pixel-ratio: 2),
+        max-width: 768px;}
+        
+    @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
+                
                 .hiro {
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                         url('../images/hiro.img/dark-bghirot@2x.jpg');
                 }
             }
-    }
-}
+        }
+
 
 @media only screen and (min-width: 768px) {
     .hiro {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/hiro.img/people-office.jpg.jpg);
         background-size: 1440px;
-        max-width: 1440px;
+        max-width: 1440px;}
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
-            (min-resolution: 2dppx) {
+            (min-resolution: 2dppx) {}
                 .hiro {
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                         url('../images/hiro.img/people-office 1..hirod@2x.jpg');
                 }
             }
-    }
-}
+
 
 .hiro-title {
     color: var(--page-title-color);
@@ -505,12 +506,7 @@ button {
         .container-text:first-child {
             margin-left: 0;
         }
-            
-        
-   
 }
-
-
 
 .future-text {
     font-weight: 500;
@@ -899,7 +895,7 @@ button {
 }
 
 .backdrop.is-hidden {
-    opacity: o;
+    opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
