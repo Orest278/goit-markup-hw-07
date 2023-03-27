@@ -254,8 +254,9 @@
                 class="about-img"
                 srcset="
                   ./images/rectangle2.jpg            360w,
-                  ./images\image2X\img.monitor2x.jpg 720w
+                  ./images/image2X/img.monitor2x.jpg 720w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/rectangle2.jpg"
                 alt="monitor"
                 width="360"
@@ -267,8 +268,9 @@
                 class="about-img"
                 srcset="
                   ./images/rectangle3.jpg            360w,
-                  ./images\image2X\img.display2x.jpg 720w
+                  ./images/image2X/img.display2x.jpg 720w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/rectangle3.jpg"
                 alt="display mobile"
                 width="360"
@@ -280,8 +282,9 @@
                 class="about-img"
                 srcset="
                   ./images/rectangle1.jpg          360w,
-                  ./images\image2X\img.phone2x.jpg 720w
+                  ./images/image2X/img.phone2x.jpg 720w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/rectangle1.jpg"
                 alt="display mobile"
                 width="360"
@@ -299,9 +302,10 @@
             <li class="content">
               <img
                 srcset="
-                  ./images\img4.jpg                   264w,
-                  ./images\image2X\img.person-1x2.jpg 528w
+                  ./images/img4.jpg                   264w,
+                  ./images/image2X/img.person-1x2.jpg 528w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/img4.jpg "
                 alt="person1"
                 width="264"
@@ -354,8 +358,9 @@
               <img
                 srcset="
                   ./images/img1.jpg                   264w,
-                  ./images\image2X\img.person-2x2.jpg 528w
+                  ./images/image2X/img.person-2x2.jpg 528w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/img1.jpg"
                 alt="person2"
                 width="264"
@@ -408,8 +413,9 @@
               <img
                 srcset="
                   ./images/img2.jpg                   264w,
-                  ./images\image2X\img.person-3x2.jpg 528w
+                  ./images/image2X/img.person-3x2.jpg 528w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/img2.jpg"
                 alt="person3"
                 width="264"
@@ -462,8 +468,9 @@
               <img
                 srcset="
                   ./images/img3.jpg                   264w,
-                  ./images\image2X\img.person-4x2.jpg 528w
+                  ./images/image2X/img.person-4x2.jpg 528w
                 "
+                sizes="(min-width: 1200px) 370px, (min-width: 768px) 450px, (min-width: 480px) 418px, 100vw"
                 src="./images/img3.jpg"
                 alt="person4"
                 width="264"
@@ -642,17 +649,18 @@
     <!-- MOBILE MENU -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <div class="menu-toggle icon-border">
-          <svg class="menu-icon" width="8" height="8">
-            <use href="./images/icons.svg.svg#icon-closesvg"></use>
-          </svg>
-        </div>
+        <!-- <div class="menu-toggle icon-border"> -->
+        <svg class="menu-icon" width="8" height="8">
+          <use href="./images/icons.svg.svg#icon-closesvg"></use>
 
-        <path
-          fill-rule="evenodd"
-          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-          clip-rule="evenodd"
-        ></path>
+          <!-- </div> -->
+
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
       </button>
 
       <nav class="mobile-header-nav">
